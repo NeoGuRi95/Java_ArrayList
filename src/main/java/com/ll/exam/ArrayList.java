@@ -38,4 +38,16 @@ public class ArrayList {
     public int get(int index) {
         return arr[index];
     }
+
+    public void removeAt(int index) {
+        for (int i = index; i < arr.length - 1; i++) {
+            arr[i] = arr[i + 1];
+        }
+        arr[size] = 0;
+        --size;
+    }
+
+    public int getArrayLength() {
+        return arr.length;
+    }
 }
