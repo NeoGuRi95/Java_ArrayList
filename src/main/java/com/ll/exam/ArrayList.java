@@ -34,4 +34,8 @@ public class ArrayList {
 
         this.arr = tempArr;
     }
+
+    public int get(int index) {
+        return arr[index];
+    }
 }

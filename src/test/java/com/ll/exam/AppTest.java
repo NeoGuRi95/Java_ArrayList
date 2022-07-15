@@ -24,15 +24,15 @@ public class AppTest {
         ArrayList al = new ArrayList();
         al.add(100);
     }
-//
-//    @Test
-//    void get() {
-//        ArrayList al = new ArrayList();
-//        al.add(100);
-//        int rs = al.get(0);
-//
-//        assertEquals(100, rs);
-//    }
+
+    @Test
+    void get() {
+        ArrayList al = new ArrayList();
+        al.add(100);
+        int rs = al.get(0);
+
+        assertEquals(100, rs);
+    }
 //
 //    @Test
 //    void add를_한번_할_때_마다_size가_증가() {
