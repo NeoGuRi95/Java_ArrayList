@@ -50,4 +50,11 @@ public class ArrayList {
     public int getArrayLength() {
         return arr.length;
     }
+
+    public void showAllValues() {
+        System.out.println("== 전체 데이터 출력 ==");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(i + " : " + arr[i]);
+        }
+    }
 }
